@@ -2,7 +2,7 @@
 
 # Created by: Kaitlyn Ip
 # Created on: Oct 2022
-# This program decides whether students can attend the exam
+# This program decides whether students can attend the exam based on attendance
 
 
 def main():
