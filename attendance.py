@@ -18,19 +18,19 @@ def main():
     attendance_percent = classes_attended / classes_held * 100
 
     if attendance_percent > 75:
-            print(
-                "The student has {0}% attendance. They may sit in for the exam.".format(
+        print(
+            "The student has {0}% attendance. They may sit in for the exam.".format(
                 attendance_percent
             )
         )
     elif attendance_percent < 75:
-            print(
-                "The student has {0}% attendance. They may not sit in for the exam.".format(
-                    attendance_percent
+        print(
+            "The student has {0}% attendance. They may not sit in for the exam.".format(
+                attendance_percent
             )
         )
     else:
-            print("Input is invalid.".format(attendance_percent))
+        print("Input is invalid.".format(attendance_percent))
 
     # output
     print("\nDone.")
