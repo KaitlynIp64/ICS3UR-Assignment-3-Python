@@ -29,8 +29,6 @@ def main():
                 attendance_percent
             )
         )
-    else:
-        print("Input is invalid.".format(attendance_percent))
 
     # output
     print("\nDone.")
